@@ -1,5 +1,5 @@
 {
-  "name": "cicd-lab",
+  "name": "github-actions-cicd-pipeline",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
