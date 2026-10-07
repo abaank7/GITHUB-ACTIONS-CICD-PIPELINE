@@ -9,6 +9,7 @@ app.get('/', (_request, response) => {
     <h1>CI/CD Lab</h1>
     <p>The application is running.</p>
     <p>Version ${version}</p>
+    <p>Preview deployment: Temporary Updated Deployed URL</p>
   `);
 });
 
@@ -21,7 +22,7 @@ app.get('/api/health', (_request, response) => {
 
 app.get('/api/version', (_request, response) => {
   response.json({
-    version: process.env.APP_VERSION ?? 'development',
+    version: 'development',
   });
 });
 
